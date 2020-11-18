@@ -1,20 +1,12 @@
-//lucas
-//versión inicial del vector de Lucas
-lucas=[1,3];
-//una constante para definir un límite
-var limite=9;
+// Serie de Lucas
+const x = 10;
+const serie = [2, 1];
 
-//lamada a la recursión para calcular el indice 2 del vector de lucas
-secLucas(2);
+console.log(serie[0]);
+console.log(serie[1]);
 
-//mostramos el resultadp
-console.log ("La secuencia de lucas es: "+lucas);
-//1, 3, 4, 7, 11, 18, 29, 47, ...
-
-
-function secLucas(n){ //calcular el término n
-        if (n<=limite) { //solo si no es menor que el limite
-                lucas[n]=lucas[n-1]+lucas[n-2];
-                secLucas(n+1);
-        }
+for(let i = 1; i <= x - 2; i++) {
+    const el = serie[i] + serie[i - 1];
+    console.log(el);
+    serie[i + 1] = serie[i] + serie[i - 1];
 }
