@@ -1,17 +1,3 @@
-var c = 30;
-var j = 2;
-var numerosPrimos = [];
-
-for (; j < c; j++) {
-
-  if (primo(j)) {
-    numerosPrimos.push(j);
-  }
-  
-}
-
-console.log(numerosPrimos);
-
 let cantidadPrimos = 10; // cuántos primos
 let primosEncontrados = 0; // variable para eso
 let i = 1; // variable pal ciclo
