@@ -1,4 +1,4 @@
-var c = 10;
+var c = 30;
 var j = 2;
 var numerosPrimos = [];
 
