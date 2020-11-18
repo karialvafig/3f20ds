@@ -1,17 +1,20 @@
+//Serie de Fibonacci
+const x=10;
+let array=[];
+let a=0;
+let b=1;
+let c=a+b;
 
-function fibonacci(numero)
-{
-    let numeros=[1,1];
-    for (let i = 2; i < numero; i++) {
-        numeros[i] = numeros[i - 2] + numeros[i - 1];
-    }
-    return numeros;
-}
+console.log (a);
+console.log (b);
+console.log (c);
 
-// Ejecutamos la función pasándole como parámetro el numero 
-console.log(fibonacci(10)); // 0,1,1,2,3,5,8,13,21,34
-        
-        
+ for (let i=0; i<x;i++){
+     a=b;
+     b=c;
+     c=a+b;
+     console.log(c);
+ }       
 
         
     
