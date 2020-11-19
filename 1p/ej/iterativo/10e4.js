@@ -33,21 +33,6 @@ console.timeEnd('Ordenar arreglo tardó: ');
 
 
 console.log('Inversiones promedio: ' + inversiones);
-console.log('¿podemos mejorar el tiempo de ejecución? ¿cómo? R = Sí, optimizando el ordenamiento de tal manera que se reduzca la cantidad de intercambios (ver código comentado)');
+console.log('¿podemos mejorar el tiempo de ejecución? ¿cómo? Sí');
 console.log(numeros);
 
-// console.time('Ordenar arreglo tardó: ');
-// for (let i = 0; i < long; i++) {
-//     let ordenado = false;
-//     for (let j = 0; j < long - i - 1; j++) {
-//         if (ordenado) break;
-//         if (numeros[j] > numeros[j + 1]) {
-//             let aux = numeros[j];
-//             numeros[j] = numeros[j + 1];
-//             numeros[j + 1] = aux;
-//             inversiones++;
-//             ordenado = true;
-//         }
-//     }
-// }
-// console.timeEnd('Ordenar arreglo tardó: ');

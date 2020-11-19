@@ -1,7 +1,5 @@
 // generar 10e5 numeros aleatorios //[0, 99999]
-// ¿cuantas inversiones requiere cada uno en promedio?
-// ¿cuantas tiempo toma cada uno en promedio?
-// ¿podemos mejorar el tiempo de ejecución? ¿cómo?
+
 
 let inversiones = 0;
 let min = 0;
@@ -36,5 +34,4 @@ console.timeEnd('Ordenar arreglo tardó: ');
 
 
 console.log('Inversiones promedio: ' + inversiones);
-console.log('¿podemos mejorar el tiempo de ejecución? ¿cómo? R = Sí, optimizando el ordenamiento de tal manera que se reduzca la cantidad de intercambios (ver código comentado)');
 console.log(numeros);
