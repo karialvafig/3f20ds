@@ -1,5 +1,6 @@
 //haciendo uso de esta secuencia S=[3,1,4,2,3] 
 //max(S)
+//complejidad 0(n)
 let s = [3, 1, 4, 2, 3], max = s[0];
 
 function Max(){
