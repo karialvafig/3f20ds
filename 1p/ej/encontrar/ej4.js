@@ -1,15 +1,15 @@
 //haciendo uso de esta secuencia S=[3,1,4,2,3] 
 //existenRepetidos(S)
 //complejidad: 0(n)
-let s = [3, 1, 4, 2, 3], r=false;
+const S = [3, 1, 4, 2, 3];
+let hayRepetidos = false;
 
-
-const sf = s.filter(function(el, index) {
-    return s.indexOf(el) === index;
-})
-
-if(sf.length !== s.length) {
-    console.log('Hay repetidos')
-} else {
-    console.log('No hay repetidos')
+for(let i = 0; i < S.length; i++) {
+    for(let j = i + 1; j < S.length; j++) {
+        if(S[i] === S[j]) {
+            hayRepetidos = true;
+        }
+    }
 }
+
+hayRepetidos? console.log('Hay repetidos') : console.log('No hay repetidos');
