@@ -1,4 +1,4 @@
-let cantidadPrimos = 10; // cuántos primos
+let cantidadPrimos = 9; // cuántos primos
 let primosEncontrados = 0; // variable para eso
 let i = 1; // variable pal ciclo
 
@@ -6,7 +6,7 @@ function primo(numero) {
 
     for (var i = 2; i < numero; i++) {
 
-        if (numero % i === 0) {
+        if (numero % i == 0) {
             return false;
         }
 
