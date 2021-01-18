@@ -70,11 +70,11 @@ class DoublyLinkedList {
 
 module.exports = DoublyLinkedList;
 let cities = new DoublyLinkedList();
-cities.insert("Colima", "head");
-cities.insert("Mérida", "Colima");
-cities.insert("Toluca", "Mérida");
-cities.insert("Ecatepec", "Toluca");
+cities.insert("Ciudad de Mexico", "head");
+cities.insert("Colima", "Colima");
+cities.insert("Queretaro", "Mérida");
+cities.insert("Quintana Roo", "Toluca");
 cities.display();
 console.log();
-cities.remove("Mérida");
+cities.remove("Colima");
 cities.display();

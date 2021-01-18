@@ -57,8 +57,8 @@ class CircularLinkedList {
 
 module.exports = CircularLinkedList;
 let cities = new CircularLinkedList();
-cities.insert('Colima', 'head'); // Se inserta como nodo HEAD
-cities.insert('Tepames', 'Colima');
-cities.insert('Ixtlahuacán', 'Tepames');
-cities.insert('Tecomán', 'Ixtlahuacán');
+cities.insert('Rojo', 'head'); // Se inserta como nodo HEAD
+cities.insert('Verde', 'Colima');
+cities.insert('Azul', 'Tepames');
+cities.insert('Amarillo', 'Ixtlahuacán');
 cities.display();

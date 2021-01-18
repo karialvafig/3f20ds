@@ -60,11 +60,11 @@ function dance(hombres, mujeres) {
 }
 
 let hombres = new Queue();
-hombres.enqueue(new Dancer("Carlos", "M"));
-hombres.enqueue(new Dancer("Enrique", "M"));
+hombres.enqueue(new Dancer("Roberto", "M"));
+hombres.enqueue(new Dancer("Jose", "M"));
 
 let mujeres = new Queue();
-mujeres.enqueue(new Dancer("Roberta", "F"));
+mujeres.enqueue(new Dancer("Karime", "F"));
 
 dance(hombres, mujeres);
 
